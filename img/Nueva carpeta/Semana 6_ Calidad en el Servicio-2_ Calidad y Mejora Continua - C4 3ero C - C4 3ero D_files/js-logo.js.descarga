@@ -1,0 +1,10 @@
+$(".ic-Login-confirmation__logo").attr("src","http://www.tecsup.edu.pe/canvas/logo-tv.png");
+
+$('.mobileLogin-Header').css({
+	'background-image':'url(https://instructure-uploads.s3.amazonaws.com/account_81840000000000001/attachments/19306/Logotipo.png)',
+	'background-size': '180px 39px',
+	'min-height': '48px'
+});
+
+$button = $('<a href="https://tecsup.instructure.com/login/saml" class="Button" style="display: block; margin-top: 20px;"><i style="display: inline-block; vertical-align: middle; width: 40px; height: 24px; background: url(https://campus.tecsup.edu.pe/campus/img/icon/social-google-plus-24.png) transparent 10px 50% no-repeat;"></i>Ingresa con tu correo de Tecsup</a>');
+$('#login_form').append($button);
